@@ -1,7 +1,7 @@
 {
     "name": "Umais Muhammad Siddiqui",
     "label": "AI Engineer Portfolio",
-    "image_path": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=988&auto=format&fit=crop",
+    "image_path": "/profile.jpg",
     "contact": {
       "email": "umaismuhammad99@gmail.com",
       "phone": "+92 3401106263",
@@ -77,7 +77,7 @@
         ],
         "images": [
           {
-            "img_path": "https://picsum.photos/600/338?random=2",
+            "img_path": "/price_classification.jpg",
             "caption": "Model Training Performance"
           }
         ]
@@ -93,7 +93,7 @@
         ],
         "images": [
           {
-            "img_path": "https://picsum.photos/600/338?random=3",
+            "img_path": "/recommender2.png",
             "caption": "Chatbot Interface"
           }
         ]

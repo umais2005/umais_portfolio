@@ -24,7 +24,7 @@ const About: React.FC<AboutProps> = ({ portfolioData }) => {
           <div className="md:col-span-2">
             <div className="aspect-square overflow-hidden rounded-2xl bg-secondary">
               <img 
-                src={portfolioData.image_path || "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=988&auto=format&fit=crop"}
+                src={portfolioData.image_path || "/profile.jpg"}
                 alt={portfolioData.name} 
                 className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
               />
