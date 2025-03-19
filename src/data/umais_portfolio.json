@@ -1,0 +1,183 @@
+{
+    "name": "Umais Muhammad Siddiqui",
+    "label": "AI Engineer Portfolio",
+    "image_path": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=988&auto=format&fit=crop",
+    "contact": {
+      "email": "umaismuhammad99@gmail.com",
+      "phone": "+92 3401106263",
+      "location": "Karachi, Pakistan"
+    },
+    "summary": "AI Engineer with expertise in machine learning, NLP, and LLMs. Experienced in data pipelines, RAG techniques, and deploying AI applications using Streamlit and Render.",
+    "base_url": "127.0.0.1:5500",
+    "social_links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/umais-siddiqui-0291a7178",
+        "svg_path": "img/linkedin.svg"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/umais2005",
+        "svg_path": "img/github.svg"
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Ariel Teknology",
+        "position": "AI Engineer Intern",
+        "url": "https://sample.com",
+        "start_date": "08/2024",
+        "end_date": "12/2024",
+        "summary": "Developed a prototype AI agent using LLMs and vector databases, implementing RAG techniques for context-aware medical report explanations.",
+        "highlights": [
+          "Designed and implemented RAG pipeline for medical report explanations.",
+          "Integrated LLMs and vector databases to improve contextual accuracy.",
+          "Enhanced AI agent's ability to provide detailed and accurate responses."
+        ]
+      },
+      {
+        "company": "Saynt AI",
+        "position": "AI Engineer Intern",
+        "url": "https://sample.com",
+        "start_date": "07/2024",
+        "end_date": "08/2024",
+        "summary": "Contributed to developing AI workflows for enhanced learning experiences using OCR and RAG techniques.",
+        "highlights": [
+          "Leveraged OCR and RAG for better educational content access.",
+          "Developed AI-driven solutions to improve student engagement.",
+          "Streamlined content retrieval using vector databases."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "AI Chatbot for Climate Research",
+        "summary": "Developed a climate-focused chatbot using LangChain, GPT-4, and Whisper with RAG-based responses.",
+        "url": "https://sample.com",
+        "highlights": [
+          "Integrated 20+ books and 100+ podcasts into Pinecone Vector DB.",
+          "Implemented cloud-based pipeline for seamless data ingestion.",
+          "Deployed on Streamlit Cloud for organized knowledge retrieval."
+        ],
+        "images": [
+          {
+            "img_path": "https://picsum.photos/600/338?random=1",
+            "caption": "Chatbot UI"
+          }
+        ]
+      },
+      {
+        "title": "Mobile Price Range Classifier",
+        "summary": "Improved model accuracy by 20% through feature engineering, achieving 95% accuracy using SVC.",
+        "url": "https://sample.com",
+        "highlights": [
+          "Implemented feature engineering for better model accuracy.",
+          "Trained using SVC and compared multiple models.",
+          "Achieved 95% accuracy in price range classification."
+        ],
+        "images": [
+          {
+            "img_path": "https://picsum.photos/600/338?random=2",
+            "caption": "Model Training Performance"
+          }
+        ]
+      },
+      {
+        "title": "Recommender Chatbot",
+        "summary": "Built a chatbot using LangChain and Llama 3 for humanlike recommendations from a vector database of 15,000+ app descriptions.",
+        "url": "https://sample.com",
+        "highlights": [
+          "Created a vector database using 15,000+ app descriptions.",
+          "Implemented LangChain for RAG-based recommendations.",
+          "Designed for humanlike conversational recommendations."
+        ],
+        "images": [
+          {
+            "img_path": "https://picsum.photos/600/338?random=3",
+            "caption": "Chatbot Interface"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "A Levels",
+        "location": "Karachi, Pakistan",
+        "url": "https://sample.com",
+        "degrees": ["Maths (A*)", "Computer Science (A*)", "Physics (B)"],
+        "graduation_date": "10/2024"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": 100,
+        "proficiency_label": "Expert"
+      },
+      {
+        "name": "Machine Learning",
+        "proficiency": 90,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "proficiency": 90,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "LangChain",
+        "proficiency": 85,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "Data Handling (Pandas, Scikit-Learn)",
+        "proficiency": 85,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "Deployment (Streamlit, Render)",
+        "proficiency": 75,
+        "proficiency_label": "Proficient"
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Complete Generative AI Course With Langchain and Huggingface - Udemy",
+        "highlights": [
+          "Gained hands-on experience with LangChain and Huggingface.",
+          "Built, deployed, and optimized AI models.",
+          "Created 10+ projects including chatbots and content generators."
+        ]
+      },
+      {
+        "title": "Google Data Analytics - Coursera",
+        "highlights": [
+          "Learned data cleaning, analysis, and visualization using SQL, R, and Tableau.",
+          "Completed practical project-based training."
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "Urdu",
+        "fluency": "Native speaker"
+      }
+    ],
+    "references": [
+      {
+        "name": "Person One",
+        "relation": "Previous Boss",
+        "reference": "Umais showed exceptional problem-solving skills and a deep understanding of AI workflows, delivering high-quality solutions."
+      },
+      {
+        "name": "Person Two",
+        "relation": "Previous Coworker",
+        "reference": "Umais was highly collaborative and instrumental in improving AI-based projects, contributing innovative ideas and expertise."
+      }
+    ]
+  }
+  
