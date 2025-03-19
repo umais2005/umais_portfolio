@@ -8,7 +8,7 @@
       "location": "Karachi, Pakistan"
     },
     "summary": "AI Engineer with expertise in machine learning, NLP, and LLMs. Experienced in data pipelines, RAG techniques, and deploying AI applications using Streamlit and Render.",
-    "base_url": "127.0.0.1:5500",
+    "base_url": "#",
     "social_links": [
       {
         "label": "LinkedIn",
