@@ -25,7 +25,7 @@
       {
         "company": "Ariel Teknology",
         "position": "AI Engineer Intern",
-        "url": "https://sample.com",
+        "url": "https://www.aerialteknology.com/",
         "start_date": "08/2024",
         "end_date": "12/2024",
         "summary": "Developed a prototype AI agent using LLMs and vector databases, implementing RAG techniques for context-aware medical report explanations.",
@@ -38,7 +38,7 @@
       {
         "company": "Saynt AI",
         "position": "AI Engineer Intern",
-        "url": "https://sample.com",
+        "url": "https://www.saynt.org",
         "start_date": "07/2024",
         "end_date": "08/2024",
         "summary": "Contributed to developing AI workflows for enhanced learning experiences using OCR and RAG techniques.",
