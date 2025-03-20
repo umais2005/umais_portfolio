@@ -1,7 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 interface HeaderProps {
   portfolioData: any;
@@ -10,8 +10,10 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ portfolioData }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
   
-  // Sections for navigation
+  // Sections for navigation - ensure these match actual section IDs in the DOM
   const sections = [
     { id: 'about', label: 'About' },
     { id: 'experience', label: 'Experience' },
@@ -33,15 +35,32 @@ const Header: React.FC<HeaderProps> = ({ portfolioData }) => {
   // Handle hash navigation smoothly
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
+    
+    // If we're not on the home page, navigate there first
+    if (location.pathname !== '/' && location.pathname !== '/index') {
+      navigate('/');
+      // We'll need to wait for the navigation to complete before scrolling
+      setTimeout(() => {
+        scrollToSection(id);
+      }, 100);
+    } else {
+      scrollToSection(id);
+    }
+    
+    // Close mobile menu if open
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+  };
+  
+  const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       // Update URL without page reload
       window.history.pushState(null, '', `#${id}`);
-    }
-    // Close mobile menu if open
-    if (mobileMenuOpen) {
-      setMobileMenuOpen(false);
+    } else {
+      console.warn(`Element with id "${id}" not found in the document`);
     }
   };
 
