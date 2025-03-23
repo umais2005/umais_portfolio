@@ -11,7 +11,7 @@ import Volunteer from '@/components/Volunteer';
 import Interests from '@/components/Interests';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
-import portfolioDataJson from '@/data/umais_portfolio.json';
+import portfolioDataJson from '@/data/portfolio.json';
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
