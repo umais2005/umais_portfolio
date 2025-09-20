@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://umais2005.github.io/umais_portfolio",
+  "homepage": "https://umais2005.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
